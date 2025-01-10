@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './pages/homepage';
 import ChiSiamo from './pages/ChiSiamo';
-import PostList from './pages/PostList';
+import AddPost from './pages/AddPost';
 import DefaultLayout from './component/DefaultLayout';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <Route element={<DefaultLayout />}>
             <Route index element={<Homepage />} />
             <Route path="/chisiamo" element={<ChiSiamo />} />
-            <Route path="/postlist" element={<PostList />} />
+            <Route path="/AddPost" element={<AddPost />} />
           </Route>
         </Routes>
       </BrowserRouter>
