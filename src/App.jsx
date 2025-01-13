@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Homepage from './pages/homepage';
+import Homepage from './pages/HomePage';
 import ChiSiamo from './pages/ChiSiamo';
 import AddPost from './pages/AddPost';
-import NotFound from './pages/NotFound';
 import DefaultLayout from './component/DefaultLayout';
+import AlertContext from './contexts/AlertContext';
 
 function App() {
 
@@ -14,9 +14,8 @@ function App() {
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route index element={<Homepage />} />
-            <Route path="/chi-siamo" element={<ChiSiamo />} />
-            <Route path="/add-post" element={<AddPost />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/chisiamo" element={<ChiSiamo />} />
+            <Route path="/AddPost" element={<AddPost />} />
           </Route>
         </Routes>
       </BrowserRouter>
