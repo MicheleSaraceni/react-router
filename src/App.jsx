@@ -4,7 +4,6 @@ import Homepage from './pages/HomePage';
 import ChiSiamo from './pages/ChiSiamo';
 import AddPost from './pages/AddPost';
 import DefaultLayout from './component/DefaultLayout';
-import AlertContext from './contexts/AlertContext';
 
 function App() {
 
