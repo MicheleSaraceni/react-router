@@ -23,7 +23,7 @@ function AddCard({ onAdd }) {
         <>
             <input type="text" name="title" placeholder="Titolo" />
             <input type="text" name="content" placeholder="Contenuto" />
-            <button className="btn btn-primary" onClick={saveData}>Aggiungi Card</button>
+            <button className="btn btn-danger" onClick={saveData}>Aggiungi Classe</button>
 
 
         </>

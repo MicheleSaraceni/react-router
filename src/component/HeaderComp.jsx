@@ -9,10 +9,10 @@ export default function HeaderComp() {
                         <NavLink to="/" className="nav-link">HomePage</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/AddPost" className="nav-link">Aggiungi Post</NavLink>
+                        <NavLink to="/add-post" className="nav-link">Aggiungi Classe</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/chisiamo" className="nav-link">Chi Siamo</NavLink>
+                        <NavLink to="/chi-siamo" className="nav-link">Chi Siamo</NavLink>
                     </li>
                 </ul>
             </div>

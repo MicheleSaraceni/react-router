@@ -1,9 +1,13 @@
-import GetData from "../component/GetData";
+import { useNavigate } from "react-router";
 import AddCard from "../component/AddCard";
 
 export default function AddPost() {
+
+    const navigate = useNavigate();
+
     function onAdd() {
-        GetData();
+        // redirect su homepage
+        navigate('/');
     }
 
     return (
